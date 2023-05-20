@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <title>Meal App</title>
+</head>
+<body>
+  <div id= "container">
+    <div class="header-section">
+      <div class="logo image">
+         <img src="https://www.fitexmeals.com/wp-content/uploads/bb-plugin/cache/Website-choose-your-meals-logo-1-circle.png">
+         <div class="image-inner" onclick="gotoHome()">
+            <h1>MEAL App</h1>
+         </div>
+      </div>
+     </div>
+
+      <div class = "food-result">
+        <h2 class = "title">Your Favourite Food Items Are displayed Below:</h2>
+          <div id= "fav-meal">
+        </div>
+      </div>
+
+      <!-- Food Detail Page  -->
+      <div class = "food-details">
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">Close</button>   <!-- recipe close btn -->      
+        <div class = "food-details-content">                                                            <!-- meal content -->
+        </div>
+      </div>
+  </div>
+
+<script src = "script.js"></script>
+</body>
+</html>
