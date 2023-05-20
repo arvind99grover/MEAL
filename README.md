@@ -27,4 +27,13 @@ The following tools and technologies were used to develop this project:
 - Each meal in the list has a "Remove from favourites" button.
 - Clicking the "Remove from favourites" button removes the meal from the favourite meals list.
 
-Feel free to explore and enjoy using the MEAL App!
+### 
+- Notification is Also added when add to favourite is clicked.
+
+Hosted Link : https://arvind99grover.github.io/MEAL/
+
+
+![](images/HOMEPAGE.png)
+![](images/SearchedPage.png)
+![](images/ShowRecipe.png)
+![](images/FavouritePage.png)
